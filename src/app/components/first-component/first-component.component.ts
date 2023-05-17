@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class FirstComponentComponent {
   name : string ='Fran'; //typescript variavel : tipo (opcional) = valor
+  age : number = 31;
+  job = 'programador';
+  hobbies = ['crochê', 'ler'];
+  car ={
+    name : "Polo",
+    year: 2019,
+  }
 }
