@@ -3,4 +3,6 @@
 <div>
     <a href="#">Clique Aqui</a>
 </div>
-<app-first-component></app-first-component>
+<app-first-component></app-first-component> <!--adicionar componente a aplicação principal o app.component-->
+<app-parent-data [name] = "userName" [userData] = "userData" ></app-parent-data> <!--importação do componente no componente Pai (o mesmo que está escrito na explicação anterior, mas com outras palavras)
+o '[name]' é como será utilizado no componente filho e o que esta entre "" será o nome no componente Pai. Adiciona o pacote Input na classe filho-->
