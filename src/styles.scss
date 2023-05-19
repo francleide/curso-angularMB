@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/*CSS global - afeta todas as páginas, mas se houver um CSS mais interno com uma alteração específica o CSS global não interfere */
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+} /*todos os elementos*/
+a {
+    color: orange;
+}/*um elemento HTML tipo link*/
