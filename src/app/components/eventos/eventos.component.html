@@ -1,0 +1,7 @@
+<!--criando evento-->
+<div class="class">
+    <p *ngIf="show">Exibindo mensagem!</p>
+    <p *ngIf="showButton">Outra exibição de mensagem</p>
+    <button (click)="showMessage()">Clique em mim!</button>
+    <button *ngIf="show" (click)="showMessageMore()">Outro Botão!! =D</button>
+</div>
